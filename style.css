@@ -1,0 +1,92 @@
+body{
+    font-family: Fira Sans;
+    background: gainsboro;
+}
+.blockWithText {
+    position: relative;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 250px;
+    background: rgb(38, 36, 36);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 3px 1px #69b2f3;
+}
+.blockAreaText {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    padding-left: 10px;
+    z-index: 1;
+    align-items: end;
+}
+.firstText{
+    color: white;
+    font-size: 35px;
+    display: flex;
+}
+.secondText{
+    color: rgb(105, 178, 243);
+    font-size: 35px;
+    font-weight: 100;
+    margin-left: 5px;
+    filter: drop-shadow(2px 4px 2px rgba(0, 0, 0, 0.507));
+}
+.Line{
+    display: flex;
+    width: 1px;
+    height: 45px;
+    background: #86d9fd;
+}
+.deleteText{
+    align-items: end;
+    justify-content: end;
+    display: flex;
+    width: fit-content;
+    height: 50px;
+    background: none;
+}
+.blockWithImage {
+    position: absolute;
+    left: 179px;
+    display: flex;
+    z-index: 0;
+    top: 24px;
+    opacity: 40%;
+    width: 300px;
+    overflow: hidden;
+    height: 150px;
+    border-radius: 12px;
+}
+.blockWithImage img{
+    width: 300px;
+    height: 150px;
+
+}
+.imgSolo{
+    display: none;
+}
+.show {
+    display: flex;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+.hide {
+    display: flex;
+    -webkit-animation: fadeOut 1s;
+    animation: fadeOut 1s;
+}
+
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeOut {
+    from { opacity: 1; }
+      to { opacity: 0; }
+}
