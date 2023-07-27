@@ -12,12 +12,14 @@ body {
     position: relative;
     padding: 0;
     margin-left: auto;
+    margin-top: auto;
     margin-right: auto;
+    top: 25%;
+    margin-bottom: auto;
     width: 500px;
     height: 250px;
-    background: url('https://elearningindustry.com/wp-content/uploads/2017/05/what-should-an-it-infrastructure-solution-look-like-for-your-business.jpeg');
+    background: url(https://www.alfatechnologies.in/assets/img/alfa/services/IT_INFRASTRUCTURE_SOLUTIONS.jpg);
     border-radius: 16px;
-
     display: flex;
     justify-content: center;
     align-items: center;
