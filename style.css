@@ -1,6 +1,12 @@
-body{
+body {
+    margin: 0;
+    padding: 0;
     font-family: Fira Sans;
-    background: gainsboro;
+    background: linear-gradient(45deg, #001a65, black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
 }
 .blockWithText {
     position: relative;
@@ -9,14 +15,16 @@ body{
     margin-right: auto;
     width: 500px;
     height: 250px;
-    background: rgb(38, 36, 36);
+    background: url('https://elearningindustry.com/wp-content/uploads/2017/05/what-should-an-it-infrastructure-solution-look-like-for-your-business.jpeg');
     border-radius: 16px;
+
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 2px 3px 1px #69b2f3;
 }
 .blockAreaText {
+
     display: flex;
     width: 100%;
     height: 70px;
@@ -26,12 +34,12 @@ body{
 }
 .firstText{
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     display: flex;
 }
 .secondText{
     color: rgb(105, 178, 243);
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 100;
     margin-left: 5px;
     filter: drop-shadow(2px 4px 2px rgba(0, 0, 0, 0.507));
